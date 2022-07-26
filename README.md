@@ -23,6 +23,8 @@ The ![Amazon_Reviews_ETL.ipynb](https://github.com/Bryan-Corn/Amazon_Vine_Analys
 </pre>
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img00.png)
 This image shows the creation of the first three DataFrames, matching the the tables given in the ![database schema](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/challenge_schema.sql) as provided in the module.
- 
- 
+<pre>
+
+</pre>
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img01.png)
+This image shows the creation of the final DataFrame, connection configuration to Amazon AWS (edited for security), and the code to populate each table with the correct DataFrame.
