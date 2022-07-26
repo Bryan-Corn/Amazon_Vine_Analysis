@@ -9,6 +9,6 @@ The purpose of this project is to determine whether or not Amazon reviews writte
 ## Deliverable 1
 ### Amazon Product Review ETL
 
-![link]()
+![link](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
 
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img01.png)
