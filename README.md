@@ -9,6 +9,14 @@ The purpose of this project is to determine whether or not Amazon reviews writte
 ## Deliverable 1
 ### Amazon Product Review ETL
 
-![link](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
+The ![Amazon_Reviews_ETL.ipynb](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb) file does the following:
+
+• Initates a Spark session.
+
+• Extracts the review dataset.
+
+• Transforms the dataset into four DataFrames with correct columns.
+
+• Loads the DataFrames into an Amazon Web Services Relational Database via pgAdmin.
 
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img01.png)
