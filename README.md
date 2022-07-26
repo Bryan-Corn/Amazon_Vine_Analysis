@@ -38,3 +38,16 @@ Each table is verified in pgAdmin:
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img05.png)
 
 ## Deliverable 2
+
+The dataset extracted and transformed in Deliverable 1 is recreated and analized to check for bias in paid reviews versus unpaid reviews. For this analysis, the code in the ![Vine_Review_Analysis.ipynb](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) file does the following:
+
+• Filters the review data to products with 20 or more votes.
+
+• Further filters the dataframe for products with 50% or greater helpfull votes.
+
+• Splits the data into two DataFrames for paid and unpaid reviews.
+
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img06.png)
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img07.png)
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img08.png)
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img09.png)
