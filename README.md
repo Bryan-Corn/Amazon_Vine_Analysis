@@ -28,3 +28,11 @@ This image shows the creation of the first three DataFrames, matching the the ta
 </pre>
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img01.png)
 This image shows the creation of the final DataFrame, connection configuration to Amazon AWS (edited for security), and the code to populate each table with the correct DataFrame.
+<pre>
+
+</pre>
+Each table is verified in pgAdmin:
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img02.png)
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img03.png)
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img04.png)
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img05.png)
