@@ -55,3 +55,12 @@ The follwing images show these steps:
 <pre>
 
 </pre>
+The percentage of 5-Star reviews from Vine program members is calculated:
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img10.png)
+<pre>
+
+</pre>
+The percentage of 5-Star reviews from unpaid reviews is calulated:
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img11.png)
+
+## Deleiverable 3
