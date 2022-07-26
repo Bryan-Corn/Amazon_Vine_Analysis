@@ -3,7 +3,7 @@ Module 16 Challenge
 
 ## Overview
 
-The purpose of this project is to determine whether or not Amazon reviews written by paid members of the Amazon Vine program are biased. To make this determination, reviews from Vine program members will be compared to reviews written by unpaid reviewers. The dataset chosen for this comparison is composed of reviews of music-related products.
+The purpose of this project is to determine whether or not Amazon reviews written by paid members of the Amazon Vine program are biased. To make this determination, reviews from Vine program members will be compared to reviews written by unpaid reviewers. The dataset chosen for this comparison is composed of reviews of musical instruments.
  
  
 ## Deliverable 1
@@ -11,7 +11,7 @@ The purpose of this project is to determine whether or not Amazon reviews writte
 
 The ![Amazon_Reviews_ETL.ipynb](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb) file does the following:
 
-• Initates a Spark session.
+• Initiates a Spark session.
 
 • Extracts the review dataset.
 
@@ -22,7 +22,7 @@ The ![Amazon_Reviews_ETL.ipynb](https://github.com/Bryan-Corn/Amazon_Vine_Analys
 
 </pre>
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img00.png)
-This image shows the creation of the first three DataFrames, matching the the tables given in the ![database schema](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/challenge_schema.sql) as provided in the module.
+This image shows the creation of the first three DataFrames, matching the tables given in the ![database schema](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/challenge_schema.sql) as provided in the module.
 <pre>
 
 </pre>
@@ -39,15 +39,15 @@ Each table is verified in pgAdmin:
 
 ## Deliverable 2
 
-The dataset extracted and transformed in Deliverable 1 is recreated and analized to check for bias in paid reviews versus unpaid reviews. For this analysis, the code in the ![Vine_Review_Analysis.ipynb](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) file does the following:
+The dataset extracted and transformed in Deliverable 1 is recreated and analyzed to check for bias in paid reviews versus unpaid reviews. For this analysis, the code in the ![Vine_Review_Analysis.ipynb](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) file does the following:
 
 • Filters the review data to products with 20 or more votes.
 
-• Further filters the dataframe for products with 50% or greater helpfull votes.
+• Further filters the DataFrame for products with 50% or greater helpful votes.
 
 • Splits the data into two DataFrames for paid and unpaid reviews.
 
-The follwing images show these steps:
+The following images show these steps:
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img06.png)
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img07.png)
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img08.png)
@@ -60,18 +60,18 @@ The percentage of 5-Star reviews from Vine program members is calculated:
 <pre>
 
 </pre>
-The percentage of 5-Star reviews from unpaid reviews is calulated:
+The percentage of 5-Star reviews from unpaid reviews is calculated:
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img11.png)
 
-## Deleiverable 3
+## Deliverable 3
 The following is an analysis of the data from deliverables 1 and 2.
 
 ### Results
-The filtered data for music-related products shows the following:
+The filtered data for musical instrument products shows the following:
 
-Vine Program Member Reviewws (paid)
+Vine Program Member Reviews (paid)
 
-• 60 total paid reviews analized
+• 60 total paid reviews analyzed
 
 • 34 gave 5-Star reviews
 
@@ -82,11 +82,11 @@ Vine Program Member Reviewws (paid)
 </pre>
 Unpaid Reviews
 
-• 14477 unpaid reviews analized
+• 14477 unpaid reviews analyzed
 
 • 8212 gave 5-Star reviews
 
-• 5-Star review percantge is 56.72%
+• 5-Star review percentage is 56.72%
 
 ### Analysis
 
@@ -98,4 +98,4 @@ The data shows the following:
 
 From this, we can conclude that there is no evidence of bias in reviews from Vine program members. Further, if there were a bias in the paid reviews, it would be insignificant given the tiny percentage of reviews from paid reviewers.
 
-Further analysis to detect bias could include reviews with 4, 3, 2, and 1-Star ratings. For reasons unknown to me. there could be bias with 1-Star reviews that doesnt show up in 5-Star reviews. A larger dataset could be examined that includes reviews with fewer than 20 votes or all 'helpful' percentages.
+Further analysis to detect bias could include reviews with 4, 3, 2, and 1-Star ratings. Additionally, there could be bias with 1-Star reviews that doesn't show up in 5-Star reviews. A larger dataset could be examined that includes reviews with fewer than 20 votes or all 'helpful' percentages.
