@@ -70,6 +70,7 @@ The following is an analysis of the data from deliverables 1 and 2.
 The filtered data for music-related products shows the following:
 
 Vine Program Member Reviewws (paid)
+
 • 60 total paid reviews analized
 
 • 34 gave 5-Star reviews
@@ -80,8 +81,21 @@ Vine Program Member Reviewws (paid)
 
 </pre>
 Unpaid Reviews
+
 • 14477 unpaid reviews analized
 
 • 8212 gave 5-Star reviews
 
 • 5-Star review percantge is 56.72%
+
+### Analysis
+
+The data shows the following:
+
+• The 5-Star rating percentage for both the paid and unpaid review is virtually identical.
+
+• The total number of reviews after filtering the data is heavily weighted towards unpaid reviews (14477 unpaid vs 60 paid).
+
+From this, we can conclude that there is no evidence of bias in reviews from Vine program members. Further, if there were a bias in the paid reviews, it would be insignificant given the tiny percentage of reviews from paid reviewers.
+
+Further analysis to detect bias could include reviews with 4, 3, 2, and 1-Star ratings. For reasons unknown to me. there could be bias with 1-Star reviews that doesnt show up in 5-Star reviews. A larger dataset could be examined that includes reviews with fewer than 20 votes or all 'helpful' percentages.
