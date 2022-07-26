@@ -36,3 +36,5 @@ Each table is verified in pgAdmin:
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img03.png)
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img04.png)
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img05.png)
+
+## Deliverable 2
