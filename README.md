@@ -64,3 +64,24 @@ The percentage of 5-Star reviews from unpaid reviews is calulated:
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img11.png)
 
 ## Deleiverable 3
+The following is an analysis of the data from deliverables 1 and 2.
+
+### Results
+The filtered data for music-related products shows the following:
+
+Vine Program Member Reviewws (paid)
+• 60 total paid reviews analized
+
+• 34 gave 5-Star reviews
+
+• 5-Star percentage is 56.67%
+<pre>
+
+
+</pre>
+Unpaid Reviews
+• 14477 unpaid reviews analized
+
+• 8212 gave 5-Star reviews
+
+• 5-Star review percantge is 56.72%
