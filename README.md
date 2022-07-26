@@ -47,7 +47,11 @@ The dataset extracted and transformed in Deliverable 1 is recreated and analized
 
 • Splits the data into two DataFrames for paid and unpaid reviews.
 
+The follwing images show these steps:
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img06.png)
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img07.png)
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img08.png)
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img09.png)
+<pre>
+
+</pre>
