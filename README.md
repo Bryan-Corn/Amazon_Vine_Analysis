@@ -19,4 +19,8 @@ The ![Amazon_Reviews_ETL.ipynb](https://github.com/Bryan-Corn/Amazon_Vine_Analys
 
 • Loads the DataFrames into an Amazon Web Services Relational Database via pgAdmin.
 
+
+![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img00.png)
+This image shows the creation of the first three DataFrames, matching the the tables given in the ![database schema]() as provided in the module.
+
 ![image](https://github.com/Bryan-Corn/Amazon_Vine_Analysis/blob/main/Resources/Images/Img01.png)
